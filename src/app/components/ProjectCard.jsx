@@ -27,4 +27,14 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   );
 };
 
+import Head from 'next/head';
+
+const Page = (props) => (
+  <div>
+    <Head>
+      <link rel="shortcut icon" href="../../../public/icon.ico" />
+    </Head>
+    // Other layout/components
+  </div>
+);
 export default ProjectCard;
